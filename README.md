@@ -24,7 +24,7 @@ It predicts daily calorie requirements using a trained ML model and maps user go
 
 ---
 
-## Features ✨
+## Features 
 
 - Input body metrics (**age, height, weight, goal**)  
 - Predict **daily calorie requirements (ML-based)**  
@@ -42,7 +42,7 @@ Enter your profile → Select fitness goal → Click **Generate Plan** → Get y
 
 ---
 
-## Installation ⚙️
+## Installation 
 
 ```bash
 git clone https://github.com/satwiktelang18/FitForge.git
@@ -81,7 +81,7 @@ Open browser at: http://localhost:8501
 
 ---
 
-## Model Performance 📊
+## Model Performance 
 
 - **Model:** Random Forest Regressor  
 - **R² Score:** 0.9738  
@@ -90,7 +90,7 @@ Open browser at: http://localhost:8501
 
 ---
 
-### Key Insights 🔍
+### Key Insights 
 
 - The model explains **~97% of the variance** in calorie requirements (high predictive power)
 - Average prediction error is **~82 calories**, which is reasonably low for fitness estimation
