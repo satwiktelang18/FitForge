@@ -81,6 +81,25 @@ Open browser at: http://localhost:8501
 
 ---
 
+## 📊 Model Performance
+
+- **Model:** Random Forest Regressor  
+- **R² Score:** 0.9738  
+- **MAE:** 81.95 calories  
+- **RMSE:** 101.78 calories  
+
+---
+
+### 🔍 Key Insights
+
+- The model explains **~97% of the variance** in calorie requirements (high predictive power)
+- Average prediction error is **~82 calories**, which is reasonably low for fitness estimation
+- Most important factor: **Activity Level**, followed by **Weight**
+
+> Note: Model trained on structured fitness-related dataset. Performance may vary for real-world users.
+
+---
+
 ## 🏗️ Project Structure
 
 ```bash
