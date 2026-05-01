@@ -2,18 +2,15 @@
 
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-1.32-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-Calorie%20Prediction-6A5ACD?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Model-Random%20Forest-8A2BE2?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Data-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Numerical-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
 
 <br/><br/>
 
 # 💪 FitForge — AI-Powered Fitness Planner
 
-**An intelligent AI fitness system that generates personalized workout routines, calorie targets, and diet strategies based on user body metrics and fitness goals — built with Python & Streamlit.**
+📊 **ML-powered system for calorie estimation and personalized fitness planning**
 
 </div>
 
@@ -29,13 +26,13 @@ It predicts daily calorie requirements using a trained ML model and maps user go
 
 ## ✨ Features
 
-- 🧍 Input body metrics (**age, height, weight, goal**)
-- 🔥 Predict **daily calorie requirements (ML-based)**
-- 🏋️ Generate **goal-specific workout routines**
-- 🥗 Get **personalized diet recommendations**
-- 📊 Clean **Streamlit dashboard UI**
-- ⚡ Real-time fitness plan generation
-- 📈 Goal-based insights (fat loss / bulking / maintenance)
+- 🧍 Input body metrics (**age, height, weight, goal**)  
+- 🔥 Predict **daily calorie requirements (ML-based)**  
+- 🏋️ Generate **goal-specific workout routines**  
+- 🥗 Get **personalized diet recommendations**  
+- 📊 Clean **Streamlit dashboard UI**  
+- ⚡ Real-time fitness plan generation  
+- 📈 Goal-based insights  
 
 ---
 
@@ -70,9 +67,17 @@ Open browser at: http://localhost:8501
 1. User inputs body metrics (age, height, weight, goal)  
 2. Data is preprocessed and normalized  
 3. ML model predicts daily calorie requirements  
-4. Workout engine maps goal → structured training split  
-5. Diet engine generates calorie-aligned meal plan  
+4. Workout engine maps goal → structured routines  
+5. Diet engine generates calorie-aligned meal plans  
 6. Results displayed via Streamlit UI  
+
+---
+
+## 📊 Model Insights
+
+- **Algorithm:** Random Forest Regressor  
+- **Target Variable:** Daily Calorie Requirement  
+- **Input Features:** Age, Height, Weight, Fitness Goal  
 
 ---
 
@@ -113,21 +118,13 @@ FitForge/
 
 ---
 
-## 📊 Model Logic
-
-- **Calorie Model** → Predicts daily energy requirements using ML  
-- **Workout Engine** → Converts fitness goal → structured routine  
-- **Diet Engine** → Generates calorie-matched meal plans  
-
----
-
 ## 🚀 Future Improvements
 
 - [ ] Progress tracking dashboard  
 - [ ] User authentication system  
-- [ ] Cloud deployment (Streamlit Cloud)  
+- [ ] Deployment on Streamlit Cloud  
 - [ ] Mobile optimization  
-- [ ] Advanced ML personalization (Deep Learning)  
+- [ ] Advanced ML personalization  
 
 ---
 
