@@ -16,7 +16,7 @@
 
 ---
 
-## 🔭 Overview
+## Overview
 
 FitForge is a lightweight **machine learning-based fitness planning system** that helps users build **data-driven workout and diet plans**.
 
@@ -24,25 +24,25 @@ It predicts daily calorie requirements using a trained ML model and maps user go
 
 ---
 
-## ✨ Features
+## Features ✨
 
-- 🧍 Input body metrics (**age, height, weight, goal**)  
-- 🔥 Predict **daily calorie requirements (ML-based)**  
-- 🏋️ Generate **goal-specific workout routines**  
-- 🥗 Get **personalized diet recommendations**  
-- 📊 Clean **Streamlit dashboard UI**  
-- ⚡ Real-time fitness plan generation  
-- 📈 Goal-based insights  
+- Input body metrics (**age, height, weight, goal**)  
+- Predict **daily calorie requirements (ML-based)**  
+- Generate **goal-specific workout routines**  
+- Get **personalized diet recommendations**  
+- Clean **Streamlit dashboard UI**  
+- Real-time fitness plan generation  
+- Goal-based insights  
 
 ---
 
-## 🖥️ Sample Flow
+## Sample Flow
 
 Enter your profile → Select fitness goal → Click **Generate Plan** → Get your complete AI-powered fitness roadmap instantly
 
 ---
 
-## ⚙️ Installation
+## Installation ⚙️
 
 ```bash
 git clone https://github.com/satwiktelang18/FitForge.git
@@ -52,7 +52,7 @@ pip3 install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 streamlit run app.py
@@ -62,7 +62,7 @@ Open browser at: http://localhost:8501
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. User inputs body metrics (age, height, weight, goal)  
 2. Data is preprocessed and normalized  
@@ -73,7 +73,7 @@ Open browser at: http://localhost:8501
 
 ---
 
-## 📊 Model Insights
+## Model Insights
 
 - **Algorithm:** Random Forest Regressor  
 - **Target Variable:** Daily Calorie Requirement  
@@ -81,7 +81,7 @@ Open browser at: http://localhost:8501
 
 ---
 
-## 📊 Model Performance
+## Model Performance 📊
 
 - **Model:** Random Forest Regressor  
 - **R² Score:** 0.9738  
@@ -90,7 +90,7 @@ Open browser at: http://localhost:8501
 
 ---
 
-### 🔍 Key Insights
+### Key Insights 🔍
 
 - The model explains **~97% of the variance** in calorie requirements (high predictive power)
 - Average prediction error is **~82 calories**, which is reasonably low for fitness estimation
@@ -100,7 +100,7 @@ Open browser at: http://localhost:8501
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```bash
 FitForge/
@@ -127,7 +127,7 @@ FitForge/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.11  
 - Streamlit  
@@ -137,7 +137,7 @@ FitForge/
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - [ ] Progress tracking dashboard  
 - [ ] User authentication system  
@@ -147,6 +147,6 @@ FitForge/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Satwik Telang**
