@@ -8,9 +8,9 @@
 
 <br/><br/>
 
-# 💪 FitForge — AI-Powered Fitness Planner
+# FitForge — AI-Powered Fitness Planner
 
-📊 **ML-powered system for calorie estimation and personalized fitness planning**
+📊 **Predicts daily calorie needs and generates personalized workout & diet plans using Machine Learning**
 
 </div>
 
