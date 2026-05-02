@@ -8,41 +8,40 @@
 
 <br/><br/>
 
-# FitForge — AI-Powered Fitness Planner
-
-**Predicts daily calorie needs and generates personalized workout & diet plans using Machine Learning**
+# FitForge — AI-Powered Fitness Planner  
+**An intelligent fitness planning system that predicts daily calorie needs and generates personalized workout & diet plans using Machine Learning.**
 
 </div>
 
 ---
 
-## Overview
+## Overview 🔭
 
-FitForge is a lightweight **machine learning-based fitness planning system** that helps users build **data-driven workout and diet plans**.
+FitForge is a lightweight **machine learning-based fitness planner** that helps users build **data-driven workout and diet routines** based on their body metrics and goals.
 
-It predicts daily calorie requirements using a trained ML model and maps user goals (fat loss, muscle gain, maintenance) to structured fitness routines — all through a fast, interactive web interface.
-
----
-
-## Features 
-
-- Input body metrics (**age, height, weight, goal**)  
-- Predict **daily calorie requirements (ML-based)**  
-- Generate **goal-specific workout routines**  
-- Get **personalized diet recommendations**  
-- Clean **Streamlit dashboard UI**  
-- Real-time fitness plan generation  
-- Goal-based insights  
+It leverages a **Random Forest regression model** to predict daily calorie requirements and maps fitness goals (fat loss, muscle gain, maintenance) to structured workout and diet strategies — all through a fast, interactive Streamlit interface.
 
 ---
 
-## Sample Flow
+## Features ✨
 
-Enter your profile → Select fitness goal → Click **Generate Plan** → Get your complete AI-powered fitness roadmap instantly
+- 📊 Input body metrics (**age, height, weight, goal**)  
+- 🔥 Predict **daily calorie requirements (ML-based)**  
+- 🏋️ Generate **goal-specific workout routines**  
+- 🥗 Get **personalized diet recommendations**  
+- 📈 Real-time **fitness plan generation**  
+- 📉 Goal-based insights & structured outputs  
+- 🖥️ Clean and interactive **Streamlit dashboard UI**
 
 ---
 
-## Installation 
+## Sample Flow 🖥️
+
+> Enter your profile → Select fitness goal → Click Generate Plan → Get your complete AI-powered fitness roadmap instantly
+
+---
+
+## Installation ⚙️
 
 ```bash
 git clone https://github.com/satwiktelang18/FitForge.git
@@ -52,55 +51,61 @@ pip3 install -r requirements.txt
 
 ---
 
-## Usage
+## Usage ▶️
 
 ```bash
 streamlit run app.py
 ```
 
-Open browser at: http://localhost:8501
+Open your browser at `http://localhost:8501` and generate your personalized fitness plan.
 
 ---
 
-## How It Works
+## How It Works 🧠
 
-1. User inputs body metrics (age, height, weight, goal)  
-2. Data is preprocessed and normalized  
-3. ML model predicts daily calorie requirements  
-4. Workout engine maps goal → structured routines  
-5. Diet engine generates calorie-aligned meal plans  
-6. Results displayed via Streamlit UI  
-
----
-
-## Model Insights
-
-- **Algorithm:** Random Forest Regressor  
-- **Target Variable:** Daily Calorie Requirement  
-- **Input Features:** Age, Height, Weight, Fitness Goal  
+| Step | Action |
+|------|--------|
+| 1 | User inputs body metrics (age, height, weight, goal) |
+| 2 | Data is preprocessed and normalized |
+| 3 | ML model predicts daily calorie requirements |
+| 4 | Workout engine maps goal → structured routines |
+| 5 | Diet engine generates calorie-aligned meal plans |
+| 6 | Results displayed via interactive Streamlit UI |
 
 ---
 
-## Model Performance 
+## Model Insights 📊
 
-- **Model:** Random Forest Regressor  
-- **R² Score:** 0.9738  
-- **MAE:** 81.95 calories  
-- **RMSE:** 101.78 calories  
-
----
-
-### Key Insights 
-
-- The model explains **~97% of the variance** in calorie requirements (high predictive power)
-- Average prediction error is **~82 calories**, which is reasonably low for fitness estimation
-- Most important factor: **Activity Level**, followed by **Weight**
-
-> Note: Model trained on structured fitness-related dataset. Performance may vary for real-world users.
+| Component | Details |
+|----------|--------|
+| Algorithm | Random Forest Regressor |
+| Target Variable | Daily Calorie Requirement |
+| Input Features | Age, Height, Weight, Fitness Goal |
 
 ---
 
-## Project Structure
+## Model Performance 📈
+
+| Metric | Value |
+|--------|------|
+| Model | Random Forest Regressor |
+| R² Score | 0.9738 |
+| MAE | 81.95 calories |
+| RMSE | 101.78 calories |
+
+---
+
+## Key Insights 💡
+
+- Model explains **~97% of variance** in calorie prediction (high predictive power)  
+- Average prediction error is **~82 calories**, suitable for fitness estimation  
+- Most influential factor: **Activity Level**, followed by **Weight**
+
+> Note: Model trained on structured fitness dataset; real-world performance may vary.
+
+---
+
+## Project Structure 🏗️
 
 ```bash
 FitForge/
@@ -127,26 +132,31 @@ FitForge/
 
 ---
 
-## Tech Stack
+## Tech Stack 🛠️
 
-- Python 3.11  
-- Streamlit  
-- scikit-learn  
-- Pandas  
-- NumPy  
+| Tool | Purpose |
+|------|---------|
+| Python 3.11 | Core language |
+| Streamlit | Web UI framework |
+| scikit-learn | ML model (Random Forest) |
+| Pandas | Data processing |
+| NumPy | Numerical computations |
 
 ---
 
-## Future Improvements
+## Roadmap 🚀
 
+- [x] ML-based calorie prediction  
+- [x] Workout & diet recommendation engine  
+- [x] Interactive Streamlit UI  
 - [ ] Progress tracking dashboard  
 - [ ] User authentication system  
 - [ ] Deployment on Streamlit Cloud  
-- [ ] Mobile optimization  
-- [ ] Advanced ML personalization  
+- [ ] Mobile responsiveness  
+- [ ] Advanced personalization models  
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Satwik Telang**
