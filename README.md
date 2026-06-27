@@ -27,7 +27,10 @@ It leverages a **Random Forest regression model** to predict daily calorie requi
 
 <img width="1461" height="799" alt="Screenshot 2026-06-27 at 8 54 27 PM" src="https://github.com/user-attachments/assets/db3378e5-800b-4469-a712-fb0fe38478be" />
 
+
 <img width="1366" height="800" alt="Screenshot 2026-06-27 at 8 54 36 PM" src="https://github.com/user-attachments/assets/30a852c0-edbf-41ad-a447-edccff99e67e" />
+
+
 
 <img width="1342" height="800" alt="Screenshot 2026-06-27 at 8 54 47 PM" src="https://github.com/user-attachments/assets/d77e86b6-f00e-486e-be09-0f80aa09c2d7" />
 
